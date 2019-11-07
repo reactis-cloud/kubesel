@@ -1,0 +1,14 @@
+{
+  "name": "kubesel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "kubesel.js",
+  "bin": "./kubesel.js",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "expand-tilde": "^2.0.2",
+    "prompts": "^2.2.1",
+    "yaml": "^1.7.2"
+  }
+}
