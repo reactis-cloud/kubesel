@@ -34,10 +34,10 @@ Bash colors: https://misc.flogisoft.com/bash/tip_colors_and_formatting
 ### Configure bash prompt
  ~/.bashrc
 ```
-kubesel_prompt()
+_kubesel_prompt()
 {
  PS1="\\u@\\h[\e[`cat ~/.kubesel/color.selected`m`cat ~/.kubesel/name.selected`\e[39m]:\\w\\$ "
 }
-PROMPT_COMMAND=kubesel_prompt
+PROMPT_COMMAND=_kubesel_prompt
 
 ```
