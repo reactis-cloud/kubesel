@@ -1,6 +1,7 @@
 # Kubernetes Cluster Select
 
 Just copy predefined config file to ~/.kube/config
+
 ![Alt text](kubesel.gif?raw=true "")
 
 ### Install
