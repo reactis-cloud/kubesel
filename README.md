@@ -36,7 +36,7 @@ Bash colors: https://misc.flogisoft.com/bash/tip_colors_and_formatting
 ```
 _kubesel_prompt()
 {
- PS1="\\u@\\h[\e[`cat ~/.kubesel/color.selected`m`cat ~/.kubesel/name.selected`\e[39m]:\\w\\$ "
+ PS1="\\u@\\h[\[\e[`cat ~/.kubesel/color.selected`m\]`cat ~/.kubesel/name.selected`\[\e[0m\]]:\\w\\$ "
 }
 PROMPT_COMMAND=_kubesel_prompt
 
