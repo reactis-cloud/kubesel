@@ -24,7 +24,7 @@ const config = yaml.parse(file);
 				fs.writeFile(kubeseldir + '/name.selected', response.value.name, () => {
 
 				});
-				fs.writeFile(kubeseldir + '/color.selected', response.value.color ? response.value.color : '', () => {
+				fs.writeFile(kubeseldir + '/color.selected', response.value.color ? response.value.color.toString() : '', () => {
 
 				});
 			}
